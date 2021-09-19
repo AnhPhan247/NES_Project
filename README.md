@@ -2,9 +2,9 @@
 
 Installation instruction:
 
-NOTE: Do not use Ubuntu 64-bit. Below is an instruction on Ubuntu 14.04. Ubuntu 16.04 also works, the java version will be openjdk-8. You can use this command ```sudo update-alternatives --config java``` to see the $JAVA_HOME path. 
+NOTE: Do not use Ubuntu 64-bit. Below is an instruction on Ubuntu 14.04. Ubuntu 16.04 also works, the java version will be openjdk-8. You can use this command ```sudo update-alternatives --config java``` to see the ```$JAVA_HOME``` path. 
 
-1. Get Ubuntu 14.04 32bit: ```ubuntu-14.04.6-desktop-i386.iso```
+1. Get Ubuntu 14.04 32-bit version: ```ubuntu-14.04.6-desktop-i386.iso```
 https://releases.ubuntu.com/14.04/
 2. ```sudo apt-get install build-essential```
 3. ```sudo apt install openjdk-7-jdk openjdk-7-jre```
