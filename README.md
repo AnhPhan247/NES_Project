@@ -15,7 +15,7 @@ export PATH=$PATH:$JAVA_HOME
 5. git clone https://github.com/contiki-os/contiki
 6. cd contiki/tools/cooja
 7. git submodule update --init
-8. git apt install ant
+8. sudo apt install ant
 9. ant run
 
 Futher information: https://github.com/contiki-os/contiki/wiki/An-Introduction-to-Cooja
