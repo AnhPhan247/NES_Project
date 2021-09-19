@@ -8,7 +8,7 @@ https://releases.ubuntu.com/14.04/
 3. sudo apt install openjdk-7-jdk openjdk-7-jre
 4. add $JAVA_HOME to PATH: https://stackoverflow.com/questions/24641536/how-to-set-java-home-in-linux-for-all-users
 
-Add these lines to /etc/profile:
+Add these lines to /etc/profile: \
 export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-i386 \
 export PATH=$PATH:$JAVA_HOME
 
